@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AL-MOSAFER</title>
+    <link rel="stylesheet" href="N.CSS">
+    <script src="N.js"></script>
+</head>
+<body>
+</form>
+           <a href="#" class="logo" >AL-MOSAFER</a>
+       <div class="main">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li class="social-dropdown">
+              <a href="#">CONTACT</a>
+              <div class="social-dropdown-content">
+                  <a href="https://web.telegram.org/k/">Telegram</a>
+                  <a href="https://wa.me/123456789">WhatsApp</a>
+                  <a href="mailto:info@example.com">Email</a>
+              </li>
+            <li><a href="javascript:void(0);" onclick="openLoginForm()">Sign-in</a></li>
+            <li><a href="javascript:void(0);" onclick="openSignUpForm()">Sign-up</a></li>
+        </ul> 
+    </div>  
+    <div class="xx">
+            <h1 >Find the best airline tickets deals</h1>
+            <h3>Book cheap Flight and Lowest Airfares</h3>
+    </div>
+    <br>
+    <div class="section">
+        <input id="x" type="radio" value="round_trip" />
+        <lable for="x">Round Trip</lable>
+        <input id="y" type="radio" value="one_way" />
+        <lable for="x">One Way</lable>
+        <input id="z" type="radio" value="multi_city" />
+        <lable for="z" >Multiple destinations</lable>
+      </div>
+      <hr>
+      <form action="process_form.php" method="post">
+      <div class="nehal">
+        <lable><b> &nbsp;&nbsp;&nbsp; &nbsp;Leaving From &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b></lable>
+        <lable><b>Going To  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </b></lable>
+        <lable><b>Departing  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b></lable>
+        <lable><b>Returning  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></lable>
+        <lable><b>Travellers & Class</b></lable>
+        </div>
+        <br>
+        <div class="ali">
+        <input type="text" class="a" placeholder="city,country or airport"/>        
+        <input type="text" placeholder="city,country or airport"/>
+        <input type="date" placeholder="Pic a date"/>
+        <input type="date" placeholder="Pic a date"/>
+        <input list="travellers" name="trav"/>
+        <datalist id="travellers">
+            <option value="Children">More than 1 year</option>
+            <option value="Infant "> Less than 1 year</option> 
+            <option value="Adult">More than 15 years old</option >
+        </datalist>
+        <input type="button" value="Search">
+      </div>
+      <br>
+      <div class="hello">
+        <input id="win" type="radio" value="direct"/>
+        <lablefor="win">Direct Flight</lable>
+        <input id="dir" type="radio" value="cheap"/>
+        <lablefor="dir">Cheapest Flight</lable>
+      </div>
+    </form>
+    <div class="place-card-container">
+    <div class="place-card">
+      <div class="image-container" style="background-image: url('https://content.skyscnr.com/9c1264f41dfac6d9ab3cbc23156feaf5/GettyImages-467854441.jpg');"></div>
+      <div class="content">
+        <div class="place-name">Austria</div>
+        <div class="price">ج.م. 9,107</div>
+        <div class="additional-info">Direct</div>
+      </div>
+    </div>
+    <div class="place-card">
+      <div class="image-container" style="background-image: url('Qatar.jpeg');"></div>
+      <div class="content">
+        <div class="place-name">Quatar</div>
+        <div class="price">ج.م. 8,700</div>
+        <div class="additional-info">Direct</div>
+      </div>
+    </div>
+    <div class="place-card">
+        <div class="image-container" style="background-image: url('United Arab Emirates.jpeg');"></div>
+        <div class="content">
+          <div class="place-name">United Arab Emirates</div>
+          <div class="price">ج.م 6,7367</div>
+          <div class="additional-info">Direct</div>
+        </div>
+      </div>
+      <div class="place-card">
+        <div class="image-container" style="background-image: url('Saudi Arabia.jpeg');"></div>
+        <div class="content">
+          <div class="place-name">Saudi Arabia</div>
+          <div class="price">ج.م 10,807</div>
+          <div class="additional-info">Direct</div>
+          
+  </div>
+  <input type="text" name="leaving_from" class="a" placeholder="city, country or airport"/>
+<input type="text" name="going_to" placeholder="city, country or airport"/>
+<input type="date" name="departing_date" placeholder="Pick a date"/>
+<input type="date" name="returning_date" placeholder="Pick a date"/>
+</body>
+</html>
